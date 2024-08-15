@@ -1,0 +1,30 @@
+/* about.css */
+.about-div{
+    padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #eae2b7; /* Text color similar to button hover underline */
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-heading {
+    font-family: 'lovedays';
+    font-size: 2rem;
+    color: #fcbf49;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-family: 'mouldcheese';
+    font-size: 1.2rem;
+    color: #eae2b7;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Adjust as needed */
+    padding: 0 20px; /* Optional padding */
+}
+
