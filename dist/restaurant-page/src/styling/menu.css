@@ -1,0 +1,57 @@
+.menu {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #eae2b7; /* Text color similar to button hover underline */
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-category {
+  margin-bottom: 20px;
+}
+
+.menu-category h2 {
+  font-family: "lovedays";
+  font-size: 1.8rem;
+  color: #fcbf49;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #f77f00;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-name {
+  flex: 1;
+  font-weight: bold;
+  color: #fcbf49;
+  font-family: "mouldcheese";
+  font-size: 1.2rem;
+}
+
+.item-description {
+  flex: 3;
+  padding: 0 15px;
+  font-family: "lovedays";
+  font-size: 1rem;
+  color: #eae2b7;
+}
+
+.item-price {
+  flex: 0.5;
+  text-align: right;
+  color: #04b071;
+  font-weight: bold;
+  font-family: "mouldcheese";
+}
